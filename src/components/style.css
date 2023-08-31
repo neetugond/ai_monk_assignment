@@ -1,0 +1,40 @@
+.tag {
+    border: 3px solid rgb(79, 154, 245);
+    margin-bottom: 10px;
+    background-color:rgb(232, 229, 229);
+
+  }
+  
+  .tag-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(79, 154, 245);
+    padding: 5px;
+  
+  }
+  
+  .tag-header button {
+    background-color: rgb(232, 229, 229);
+    color: black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  
+  .tag-header button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .tag-data {
+    margin-left: 8px;
+    
+  }
+  
+ 
+  .tag-data > .tag {
+    margin-left: 8px;
+    margin-top: 4px;
+  }
+  
