@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Tagview from './components/Tagview';
-
+import './App.css'
 const initialTree = {
   id: uuidv4(),
   name: 'root',
@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <Tagview tag={initialTree} />
-      <button onClick={handleExport}>Export</button>
+      <button className='exportbtn' onClick={handleExport}>Export</button>
       <div>{ content}</div>
     </div>
   );
